@@ -1,0 +1,211 @@
+html {
+  box-sizing: border-box
+}
+
+body {
+  font-size: 14.5px;
+  color: #808080
+}
+
+* {
+  box-sizing: inherit
+}
+
+i {
+  color: #6896fe
+}
+
+hr {
+  border: 1px solid var(--hr-color) !important
+}
+
+h6 {
+  font-size: 16px
+}
+
+h7 {
+  font-size: 12px
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: color .1s linear 0s
+}
+
+a:active,
+a:focus,
+a:hover {
+  color: var(--atag-color);
+  text-decoration: none
+}
+
+header .sticky-nav {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  background-color: var(--color-primary);
+  z-index: 1001;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .25)
+}
+
+header .home {
+  float: right;
+  color: #6896fe;
+  font-size: 30px;
+  padding: 12px 18px
+}
+
+footer {
+  position: relative;
+  text-transform: uppercase;
+  width: 100%;
+  display: block;
+  height: auto;
+  background-color: var(--color-primary);
+  text-align: center;
+  z-index: 99;
+  margin-top: auto;
+  padding: 0 0 5px;
+  box-shadow: 0 5px 25px 0 rgba(0, 0, 0, .3)
+}
+
+footer p {
+  color: #fff;
+  font-size: 13px;
+  margin-bottom: 0;
+  padding: 15px 0
+}
+
+footer a {
+  color: #6896fe
+}
+
+.polo-first {
+  float: left;
+  width: 100%;
+  padding: 0 8px
+}
+
+.polo-second {
+  float: right;
+  width: 100%;
+  padding: 0 8px
+}
+
+.polo-profile {
+  width: 120px;
+  height: 120px
+}
+
+.polo-card {
+  background-color: var(--color-primary);
+  border-color: var(--border-color);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px
+}
+
+.polo-container {
+  padding: .01em 16px
+}
+
+.polo-display-container {
+  position: relative
+}
+
+.polo-row-padding {
+  clear: both;
+  display: table
+}
+
+.polo-pre-tag {
+  display: block
+}
+
+.polo-tag {
+  color: #fff;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: #6896fe
+}
+
+.polo-pre-func {
+  margin-left: 32px
+}
+
+.polo-margin-right-24 {
+  margin-right: 24px
+}
+
+.polo-margin-top-24 {
+  margin-top: 24px
+}
+
+.header:after {
+  content: '';
+  position: absolute;
+  bottom: 1;
+  left: 0;
+  right: 0;
+  height: 2px;
+  display: block;
+  background-color: #6896fe;
+  box-shadow: 25px 0 25px 0 #6896fe
+}
+
+.footer:before {
+  content: '';
+  position: absolute;
+  top: 1;
+  left: 0;
+  right: 0;
+  height: 2px;
+  display: block;
+  background-color: #6896fe;
+  box-shadow: 25px 0 25px 0 #6896fe
+}
+
+@media (min-width:1280px) {
+  body {
+    font-size: 16px
+  }
+
+  .polo-pre-tag {
+    display: inline-block
+  }
+
+  .polo-pre-func {
+    margin-left: 16px
+  }
+
+  .polo-profile {
+    width: 150px;
+    height: 150px
+  }
+
+  .polo-first {
+    width: 35%
+  }
+
+  .polo-second {
+    width: 65%
+  }
+}
+
+.theme-dark {
+  --background-color: #2f3238;
+  --color-primary: #26292e;
+  --border-color: #26292e;
+  --atag-color: #FFFFFF;
+  --hr-color: #2f3238
+}
+
+.theme-light {
+  --background-color: #FFFFFF;
+  --color-primary: #FFFFFF;
+  --border-color: #6896FE;
+  --atag-color: #2f3238;
+  --hr-color: #E1E1E1
+}

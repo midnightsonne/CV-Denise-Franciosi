@@ -1,0 +1,1495 @@
+body {
+  margin: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5
+}
+
+a {
+  text-decoration: none;
+  color: #808080
+}
+
+h0 {
+  font-size: 50px;
+  margin: 10px 0;
+  display: block;
+  font-weight: 700
+}
+
+h1 {
+  font-size: 40px;
+  margin: 10px 0;
+  display: block;
+  font-weight: 700
+}
+
+h2 {
+  font-size: 35px;
+  margin: 10px 0;
+  display: block;
+  font-weight: 700
+}
+
+h3 {
+  font-size: 30px;
+  margin: 10px 0;
+  display: block;
+  font-weight: 700
+}
+
+h4 {
+  font-size: 25px;
+  margin: 10px 0;
+  display: block;
+  font-weight: 700
+}
+
+h5 {
+  font-size: 20px;
+  margin: 10px 0;
+  display: block;
+  font-weight: 700
+}
+
+h6 {
+  font-size: 15px;
+  margin: 10px 0;
+  display: block;
+  font-weight: 700
+}
+
+h7 {
+  font-size: 10px;
+  margin: 10px 0;
+  display: block;
+  font-weight: 700
+}
+
+h8 {
+  font-size: 5px;
+  margin: 10px 0;
+  display: block;
+  font-weight: 700
+}
+
+hr {
+  border: 1px solid #eee;
+  margin: 20px 0
+}
+
+.polo-text-uppercase {
+  text-transform: uppercase
+}
+
+.polo-text-lowercase {
+  text-transform: lowercase
+}
+
+.polo-text-capitalize {
+  text-transform: capitalize
+}
+
+.polo-copy:before {
+  content: "\00a9 \00a0 2021 - Anderson Polo";
+  font-family: "Segoe UI";
+  text-decoration: none;
+  cursor: default;
+  user-select: none
+}
+
+.polo-padding-small {
+  padding: 4px 8px
+}
+
+.polo-padding {
+  padding: 8px 16px
+}
+
+.polo-padding-large {
+  padding: 12px 24px
+}
+
+.polo-padding-xlarge {
+  padding: 16px 32px
+}
+
+.polo-padding-xxlarge {
+  padding: 20px 40px
+}
+
+.polo-disabled {
+  text-decoration: none;
+  cursor: default;
+  user-select: none
+}
+
+.polo-float-left {
+  float: left
+}
+
+.polo-float-right {
+  float: right
+}
+
+.polo-display-topleft {
+  position: absolute;
+  left: 0;
+  top: 0
+}
+
+.polo-display-topright {
+  position: absolute;
+  right: 0;
+  top: 0
+}
+
+.polo-display-bottomleft {
+  position: absolute;
+  left: 0;
+  bottom: 0
+}
+
+.polo-display-bottomright {
+  position: absolute;
+  right: 0;
+  bottom: 0
+}
+
+.polo-display-middle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.polo-display-left {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  transform: translate(0%, -50%)
+}
+
+.polo-display-right {
+  position: absolute;
+  right: 0%;
+  top: 50%;
+  transform: translate(0%, -50%)
+}
+
+.polo-display-top {
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, 0%)
+}
+
+.polo-display-bottom {
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%, 0%)
+}
+
+.polo-margin-8 {
+  margin: 8px
+}
+
+.polo-margin-top-8 {
+  margin-top: 8px
+}
+
+.polo-margin-bottom-8 {
+  margin-bottom: 8px
+}
+
+.polo-margin-left-8 {
+  margin-left: 8px
+}
+
+.polo-margin-right-8 {
+  margin-right: 8px
+}
+
+.polo-margin-16 {
+  margin: 16px
+}
+
+.polo-margin-top-16 {
+  margin-top: 16px
+}
+
+.polo-margin-bottom-16 {
+  margin-bottom: 16px
+}
+
+.polo-margin-left-16 {
+  margin-left: 16px
+}
+
+.polo-margin-right-16 {
+  margin-right: 16px
+}
+
+.polo-margin-32 {
+  margin: 32px
+}
+
+.polo-margin-top-32 {
+  margin-top: 32px
+}
+
+.polo-margin-bottom-32 {
+  margin-bottom: 32px
+}
+
+.polo-margin-left-32 {
+  margin-left: 32px
+}
+
+.polo-margin-right-32 {
+  margin-right: 32px
+}
+
+.polo-margin-64 {
+  margin: 64px
+}
+
+.polo-margin-top-64 {
+  margin-top: 64px
+}
+
+.polo-margin-bottom-64 {
+  margin-bottom: 64px
+}
+
+.polo-margin-left-64 {
+  margin-left: 64px
+}
+
+.polo-margin-right-64 {
+  margin-right: 64px
+}
+
+.polo-circle {
+  border-radius: 50%
+}
+
+.polo-round-small {
+  border-radius: 2px
+}
+
+.polo-round-xsmall {
+  border-radius: 4px
+}
+
+.polo-round-medium {
+  border-radius: 8px
+}
+
+.polo-round-xmedium {
+  border-radius: 16px
+}
+
+.polo-round-large {
+  border-radius: 32px
+}
+
+.polo-round-xlarge {
+  border-radius: 64px
+}
+
+.polo-opacity-max {
+  opacity: 0.25
+}
+
+.polo-opacity {
+  opacity: 0.5
+}
+
+.polo-opacity-min {
+  opacity: 0.75
+}
+
+.polo-bold {
+  font-weight: 700
+}
+
+.polo-text-size-tiny {
+  font-size: 10px
+}
+
+.polo-text-size-small {
+  font-size: 12px
+}
+
+.polo-text-size-xsmall {
+  font-size: 14px
+}
+
+.polo-text-size-medium {
+  font-size: 16px
+}
+
+.polo-text-size-xmedium {
+  font-size: 18px
+}
+
+.polo-text-size-large {
+  font-size: 20px
+}
+
+.polo-text-size-xlarge {
+  font-size: 24px
+}
+
+.polo-text-size-xxlarge {
+  font-size: 36px
+}
+
+.polo-text-size-xxxlarge {
+  font-size: 48px
+}
+
+.polo-text-size-jumbo {
+  font-size: 64px
+}
+
+.polo-text-pos-right {
+  text-align: right
+}
+
+.polo-text-pos-left {
+  text-align: left
+}
+
+.polo-text-pos-center {
+  text-align: center
+}
+
+.polo-text-pos-justify {
+  text-align: justify
+}
+
+.polo-text-hide {
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  cursor: default;
+  border: 0
+}
+
+.polo-hide {
+  display: none
+}
+
+.polo-text-color-black {
+  color: #000000
+}
+
+.polo-text-color-dimgray {
+  color: #696969
+}
+
+.polo-text-color-gray {
+  color: #808080
+}
+
+.polo-text-color-darkgray {
+  color: #A9A9A9
+}
+
+.polo-text-color-silver {
+  color: #C0C0C0
+}
+
+.polo-text-color-lightgray {
+  color: #D3D3D3
+}
+
+.polo-text-color-gainsboro {
+  color: #DCDCDC
+}
+
+.polo-text-color-white {
+  color: #FFFFFF
+}
+
+.polo-text-color-slateblue {
+  color: #6A5ACD
+}
+
+.polo-text-color-darkslateblue {
+  color: #483D8B
+}
+
+.polo-text-color-midnightblue {
+  color: #191970
+}
+
+.polo-text-color-navy {
+  color: #000080
+}
+
+.polo-text-color-darkblue {
+  color: #00008B
+}
+
+.polo-text-color-mediumblue {
+  color: #0000CD
+}
+
+.polo-text-color-blue {
+  color: #0000FF
+}
+
+.polo-text-color-bluelagoon {
+  color: #006F8B
+}
+
+.polo-text-color-cornflowerblue {
+  color: #6495ED
+}
+
+.polo-text-color-royalblue {
+  color: #4169E1
+}
+
+.polo-text-color-dodgerblue {
+  color: #1E90FF
+}
+
+.polo-text-color-deepskyblue {
+  color: #00BFFF
+}
+
+.polo-text-color-lightskyblue {
+  color: #87CEFA
+}
+
+.polo-text-color-skyblue {
+  color: #87CEFA
+}
+
+.polo-text-color-lightblue {
+  color: #ADD8E6
+}
+
+.polo-text-color-steelblue {
+  color: #4682B4
+}
+
+.polo-text-color-lightsteelblue {
+  color: #B0C4DE
+}
+
+.polo-text-color-slateblue {
+  color: #708090
+}
+
+.polo-text-color-lightslategrey {
+  color: #778899
+}
+
+.polo-text-color-cyan {
+  color: #00FFFF
+}
+
+.polo-text-color-darkturquoise {
+  color: #00CeD1
+}
+
+.polo-text-color-turquoise {
+  color: #40E0D0
+}
+
+.polo-text-color-mediumturquoise {
+  color: #48D1CC
+}
+
+.polo-text-color-lightseagreen {
+  color: #20B2AA
+}
+
+.polo-text-color-darkcyan {
+  color: #008B8B
+}
+
+.polo-text-color-aquamarine {
+  color: #7FFFD4
+}
+
+.polo-text-color-mediumaquamarine {
+  color: #66CDAA
+}
+
+.polo-text-color-cadetblue {
+  color: #5F9EA0
+}
+
+.polo-text-color-darkslategrey {
+  color: #2F4F4F
+}
+
+.polo-text-color-mediumspringgreen {
+  color: #00FA9A
+}
+
+.polo-text-color-springgreen {
+  color: #00FF7F
+}
+
+.polo-text-color-palegreen {
+  color: #98FB98
+}
+
+.polo-text-color-lightgreen {
+  color: #90EE90
+}
+
+.polo-text-color-darkseagreen {
+  color: #8FBC8F
+}
+
+.polo-text-color-mediumseagreen {
+  color: #3CB371
+}
+
+.polo-text-color-seagreen {
+  color: #2E8B57
+}
+
+.polo-text-color-darkgreen {
+  color: #006400
+}
+
+.polo-text-color-green {
+  color: #008000
+}
+
+.polo-text-color-forestgreen {
+  color: #228B22
+}
+
+.polo-text-color-limegreen {
+  color: #32CD32
+}
+
+.polo-text-color-lime {
+  color: #00FF00
+}
+
+.polo-text-color-lawngreen {
+  color: #7CFC00
+}
+
+.polo-text-color-chartreuse {
+  color: #7FFF00
+}
+
+.polo-text-color-greenyellow {
+  color: #ADFF2F
+}
+
+.polo-text-color-yellowgreen {
+  color: #9ACD32
+}
+
+.polo-text-color-olivedrab {
+  color: #6B8E23
+}
+
+.polo-text-color-darkolivegreen {
+  color: #556B2F
+}
+
+.polo-text-color-olive {
+  color: #808000
+}
+
+.polo-text-color-darkkhaki {
+  color: #3D376B
+}
+
+.polo-text-color-goldenrod {
+  color: #DAA520
+}
+
+.polo-text-color-darkgoldenrod {
+  color: #B8860B
+}
+
+.polo-text-color-sadldebrown {
+  color: #8B4513
+}
+
+.polo-text-color-sienna {
+  color: #A0522D
+}
+
+.polo-text-color-rosybrown {
+  color: #Bc8F8F
+}
+
+.polo-text-color-peru {
+  color: #CD853F
+}
+
+.polo-text-color-chocolate {
+  color: #D2691E
+}
+
+.polo-text-color-sandybrown {
+  color: #F4A460
+}
+
+.polo-text-color-navajowhite {
+  color: #FFDEAD
+}
+
+.polo-text-color-wheat {
+  color: #F5DEB3
+}
+
+.polo-text-color-burlywood {
+  color: #DeB887
+}
+
+.polo-text-color-tan {
+  color: #D2B48c
+}
+
+.polo-text-color-mediumslateblue {
+  color: #7B68EE
+}
+
+.polo-text-color-mediumpurple {
+  color: #9370DB
+}
+
+.polo-text-color-blueviolet {
+  color: #8A2BE2
+}
+
+.polo-text-color-studio {
+  color: #744DA0
+}
+
+.polo-text-color-indigo {
+  color: #4b0082
+}
+
+.polo-text-color-darkviolet {
+  color: #9400D3
+}
+
+.polo-text-color-darkorchid {
+  color: #9932CC
+}
+
+.polo-text-color-mediumorchid {
+  color: #BA55D3
+}
+
+.polo-text-color-purple {
+  color: #800080
+}
+
+.polo-text-color-darkmagenta {
+  color: #8B008B
+}
+
+.polo-text-color-magenta {
+  color: #FF00FF
+}
+
+.polo-text-color-violet {
+  color: #EE82EE
+}
+
+.polo-text-color-orchid {
+  color: #DA70D6
+}
+
+.polo-text-color-plum {
+  color: #DDA0DD
+}
+
+.polo-text-color-mediumvioletred {
+  color: #C71585
+}
+
+.polo-text-color-deeppink {
+  color: #FF1493
+}
+
+.polo-text-color-hotpink {
+  color: #FF69B4
+}
+
+.polo-text-color-palevioletred {
+  color: #Db7093
+}
+
+.polo-text-color-lightpink {
+  color: #FFB6C1
+}
+
+.polo-text-color-pink {
+  color: #FFC0CB
+}
+
+.polo-text-color-lightcoral {
+  color: #F08080
+}
+
+.polo-text-color-indianred {
+  color: #CD5C5c
+}
+
+.polo-text-color-crimson {
+  color: #DC143C
+}
+
+.polo-text-color-maroon {
+  color: #800000
+}
+
+.polo-text-color-darkred {
+  color: #8B0000
+}
+
+.polo-text-color-firebrick {
+  color: #B22222
+}
+
+.polo-text-color-brownred {
+  color: #A52A2A
+}
+
+.polo-text-color-salmon {
+  color: #FA8072
+}
+
+.polo-text-color-darksalmon {
+  color: #E9967A
+}
+
+.polo-text-color-lightsalmon {
+  color: #FFA07A
+}
+
+.polo-text-color-coral {
+  color: #FF7F50
+}
+
+.polo-text-color-tomato {
+  color: #FF6347
+}
+
+.polo-text-color-red {
+  color: #FF0000
+}
+
+.polo-text-color-orangered {
+  color: #FF4500
+}
+
+.polo-text-color-darkorange {
+  color: #FF8C00
+}
+
+.polo-text-color-orange {
+  color: #FFA500
+}
+
+.polo-text-color-gold {
+  color: #FFd700
+}
+
+.polo-text-color-yellow {
+  color: #FFFF00
+}
+
+.polo-text-color-khaki {
+  color: #F0E68C
+}
+
+.polo-text-color-pattensblue {
+  color: #F0F8FF
+}
+
+.polo-text-color-ghostwhite {
+  color: #F8F8FF
+}
+
+.polo-text-color-snow {
+  color: #FFFAFA
+}
+
+.polo-text-color-seashell {
+  color: #FFF5EE
+}
+
+.polo-text-color-floralwhite {
+  color: #FFFAF0
+}
+
+.polo-text-color-whitesmoke {
+  color: #F5F5F5
+}
+
+.polo-text-color-beige {
+  color: #F5F5DC
+}
+
+.polo-text-color-oldlace {
+  color: #FDF5E6
+}
+
+.polo-text-color-ivory {
+  color: #FFFFF0
+}
+
+.polo-text-color-linen {
+  color: #FaF0E6
+}
+
+.polo-text-color-cornsilk {
+  color: #FFF8DC
+}
+
+.polo-text-color-antiquewhite {
+  color: #FAEBD7
+}
+
+.polo-text-color-blanchedalmond {
+  color: #FFEBCD
+}
+
+.polo-text-color-bisque {
+  color: #FFE4C4
+}
+
+.polo-text-color-lightyellow {
+  color: #FFFFE0
+}
+
+.polo-text-color-lemonchiffon {
+  color: #FFFACD
+}
+
+.polo-text-color-lightsoldenrodyellow {
+  color: #FAFAD2
+}
+
+.polo-text-color-papayawhip {
+  color: #FFEFD5
+}
+
+.polo-text-color-peachpuff {
+  color: #FFDAB8
+}
+
+.polo-text-color-moccasin {
+  color: #FFE4B5
+}
+
+.polo-text-color-palegoldenrod {
+  color: #EEE8AA
+}
+
+.polo-text-color-mistyrose {
+  color: #FFE4E1
+}
+
+.polo-text-color-lavenderblush {
+  color: #FFF0F5
+}
+
+.polo-text-color-lavender {
+  color: #E6E6FA
+}
+
+.polo-text-color-thistle {
+  color: #D8BFD8
+}
+
+.polo-text-color-azure {
+  color: #F0FFFF
+}
+
+.polo-text-color-lightcyan {
+  color: #E0FFFF
+}
+
+.polo-text-color-powderblue {
+  color: #B0E0E6
+}
+
+.polo-text-color-paleturquoise {
+  color: #E0FFFF
+}
+
+.polo-text-color-honewdew {
+  color: #F0FFF0
+}
+
+.polo-text-color-mintcream {
+  color: #F5FFFA
+}
+
+.polo-bg-color-black {
+  background-color: #000000
+}
+
+.polo-bg-color-dimgray {
+  background-color: #696969
+}
+
+.polo-bg-color-gray {
+  background-color: #808080
+}
+
+.polo-bg-color-darkgray {
+  background-color: #A9A9A9
+}
+
+.polo-bg-color-silver {
+  background-color: #C0C0C0
+}
+
+.polo-bg-color-lightgray {
+  background-color: #D3D3D3
+}
+
+.polo-bg-color-gainsboro {
+  background-color: #DCDCDC
+}
+
+.polo-bg-color-white {
+  background-color: #FFFFFF
+}
+
+.polo-bg-color-slateblue {
+  background-color: #6A5ACD
+}
+
+.polo-bg-color-darkslateblue {
+  background-color: #483D8B
+}
+
+.polo-bg-color-midnightblue {
+  background-color: #191970
+}
+
+.polo-bg-color-navy {
+  background-color: #000080
+}
+
+.polo-bg-color-darkblue {
+  background-color: #00008B
+}
+
+.polo-bg-color-mediumblue {
+  background-color: #0000CD
+}
+
+.polo-bg-color-blue {
+  background-color: #0000FF
+}
+
+.polo-bg-color-bluelagoon {
+  background-color: #006F8B
+}
+
+.polo-bg-color-cornflowerblue {
+  background-color: #6495ED
+}
+
+.polo-bg-color-royalblue {
+  background-color: #4169E1
+}
+
+.polo-bg-color-dodgerblue {
+  background-color: #1E90FF
+}
+
+.polo-bg-color-deepskyblue {
+  background-color: #00BFFF
+}
+
+.polo-bg-color-lightskyblue {
+  background-color: #87CEFA
+}
+
+.polo-bg-color-skyblue {
+  background-color: #87CEFA
+}
+
+.polo-bg-color-lightblue {
+  background-color: #ADD8E6
+}
+
+.polo-bg-color-steelblue {
+  background-color: #4682B4
+}
+
+.polo-bg-color-lightsteelblue {
+  background-color: #B0C4DE
+}
+
+.polo-bg-color-slateblue {
+  background-color: #708090
+}
+
+.polo-bg-color-lightslategrey {
+  background-color: #778899
+}
+
+.polo-bg-color-cyan {
+  background-color: #00FFFF
+}
+
+.polo-bg-color-darkturquoise {
+  background-color: #00CeD1
+}
+
+.polo-bg-color-turquoise {
+  background-color: #40E0D0
+}
+
+.polo-bg-color-mediumturquoise {
+  background-color: #48D1CC
+}
+
+.polo-bg-color-lightseagreen {
+  background-color: #20B2AA
+}
+
+.polo-bg-color-darkcyan {
+  background-color: #008B8B
+}
+
+.polo-bg-color-aquamarine {
+  background-color: #7FFFD4
+}
+
+.polo-bg-color-mediumaquamarine {
+  background-color: #66CDAA
+}
+
+.polo-bg-color-cadetblue {
+  background-color: #5F9EA0
+}
+
+.polo-bg-color-darkslategrey {
+  background-color: #2F4F4F
+}
+
+.polo-bg-color-mediumspringgreen {
+  background-color: #00FA9A
+}
+
+.polo-bg-color-springgreen {
+  background-color: #00FF7F
+}
+
+.polo-bg-color-palegreen {
+  background-color: #98FB98
+}
+
+.polo-bg-color-lightgreen {
+  background-color: #90EE90
+}
+
+.polo-bg-color-darkseagreen {
+  background-color: #8FBC8F
+}
+
+.polo-bg-color-mediumseagreen {
+  background-color: #3CB371
+}
+
+.polo-bg-color-seagreen {
+  background-color: #2E8B57
+}
+
+.polo-bg-color-darkgreen {
+  background-color: #006400
+}
+
+.polo-bg-color-green {
+  background-color: #008000
+}
+
+.polo-bg-color-forestgreen {
+  background-color: #228B22
+}
+
+.polo-bg-color-limegreen {
+  background-color: #32CD32
+}
+
+.polo-bg-color-lime {
+  background-color: #00FF00
+}
+
+.polo-bg-color-lawngreen {
+  background-color: #7CFC00
+}
+
+.polo-bg-color-chartreuse {
+  background-color: #7FFF00
+}
+
+.polo-bg-color-greenyellow {
+  background-color: #ADFF2F
+}
+
+.polo-bg-color-yellowgreen {
+  background-color: #9ACD32
+}
+
+.polo-bg-color-olivedrab {
+  background-color: #6B8E23
+}
+
+.polo-bg-color-darkolivegreen {
+  background-color: #556B2F
+}
+
+.polo-bg-color-olive {
+  background-color: #808000
+}
+
+.polo-bg-color-darkkhaki {
+  background-color: #3D376B
+}
+
+.polo-bg-color-goldenrod {
+  background-color: #DAA520
+}
+
+.polo-bg-color-darkgoldenrod {
+  background-color: #B8860B
+}
+
+.polo-bg-color-sadldebrown {
+  background-color: #8B4513
+}
+
+.polo-bg-color-sienna {
+  background-color: #A0522D
+}
+
+.polo-bg-color-rosybrown {
+  background-color: #Bc8F8F
+}
+
+.polo-bg-color-peru {
+  background-color: #CD853F
+}
+
+.polo-bg-color-chocolate {
+  background-color: #D2691E
+}
+
+.polo-bg-color-sandybrown {
+  background-color: #F4A460
+}
+
+.polo-bg-color-navajowhite {
+  background-color: #FFDEAD
+}
+
+.polo-bg-color-wheat {
+  background-color: #F5DEB3
+}
+
+.polo-bg-color-burlywood {
+  background-color: #DeB887
+}
+
+.polo-bg-color-tan {
+  background-color: #D2B48c
+}
+
+.polo-bg-color-mediumslateblue {
+  background-color: #7B68EE
+}
+
+.polo-bg-color-mediumpurple {
+  background-color: #9370DB
+}
+
+.polo-bg-color-blueviolet {
+  background-color: #8A2BE2
+}
+
+.polo-bg-color-studio {
+  background-color: #744DA0
+}
+
+.polo-bg-color-indigo {
+  background-color: #4b0082
+}
+
+.polo-bg-color-darkviolet {
+  background-color: #9400D3
+}
+
+.polo-bg-color-darkorchid {
+  background-color: #9932CC
+}
+
+.polo-bg-color-mediumorchid {
+  background-color: #BA55D3
+}
+
+.polo-bg-color-purple {
+  background-color: #800080
+}
+
+.polo-bg-color-darkmagenta {
+  background-color: #8B008B
+}
+
+.polo-bg-color-magenta {
+  background-color: #FF00FF
+}
+
+.polo-bg-color-violet {
+  background-color: #EE82EE
+}
+
+.polo-bg-color-orchid {
+  background-color: #DA70D6
+}
+
+.polo-bg-color-plum {
+  background-color: #DDA0DD
+}
+
+.polo-bg-color-mediumvioletred {
+  background-color: #C71585
+}
+
+.polo-bg-color-deeppink {
+  background-color: #FF1493
+}
+
+.polo-bg-color-hotpink {
+  background-color: #FF69B4
+}
+
+.polo-bg-color-palevioletred {
+  background-color: #Db7093
+}
+
+.polo-bg-color-lightpink {
+  background-color: #FFB6C1
+}
+
+.polo-bg-color-pink {
+  background-color: #FFC0CB
+}
+
+.polo-bg-color-lightcoral {
+  background-color: #F08080
+}
+
+.polo-bg-color-indianred {
+  background-color: #CD5C5c
+}
+
+.polo-bg-color-crimson {
+  background-color: #DC143C
+}
+
+.polo-bg-color-maroon {
+  background-color: #800000
+}
+
+.polo-bg-color-darkred {
+  background-color: #8B0000
+}
+
+.polo-bg-color-firebrick {
+  background-color: #B22222
+}
+
+.polo-bg-color-brownred {
+  background-color: #A52A2A
+}
+
+.polo-bg-color-salmon {
+  background-color: #FA8072
+}
+
+.polo-bg-color-darksalmon {
+  background-color: #E9967A
+}
+
+.polo-bg-color-lightsalmon {
+  background-color: #FFA07A
+}
+
+.polo-bg-color-coral {
+  background-color: #FF7F50
+}
+
+.polo-bg-color-tomato {
+  background-color: #FF6347
+}
+
+.polo-bg-color-red {
+  background-color: #FF0000
+}
+
+.polo-bg-color-orangered {
+  background-color: #FF4500
+}
+
+.polo-bg-color-darkorange {
+  background-color: #FF8C00
+}
+
+.polo-bg-color-orange {
+  background-color: #FFA500
+}
+
+.polo-bg-color-gold {
+  background-color: #FFd700
+}
+
+.polo-bg-color-yellow {
+  background-color: #FFFF00
+}
+
+.polo-bg-color-khaki {
+  background-color: #F0E68C
+}
+
+.polo-bg-color-pattensblue {
+  background-color: #d8dfe5
+}
+
+.polo-bg-color-ghostwhite {
+  background-color: #F8F8FF
+}
+
+.polo-bg-color-snow {
+  background-color: #FFFAFA
+}
+
+.polo-bg-color-seashell {
+  background-color: #FFF5EE
+}
+
+.polo-bg-color-floralwhite {
+  background-color: #FFFAF0
+}
+
+.polo-bg-color-whitesmoke {
+  background-color: #F5F5F5
+}
+
+.polo-bg-color-beige {
+  background-color: #F5F5DC
+}
+
+.polo-bg-color-oldlace {
+  background-color: #FDF5E6
+}
+
+.polo-bg-color-ivory {
+  background-color: #FFFFF0
+}
+
+.polo-bg-color-linen {
+  background-color: #FaF0E6
+}
+
+.polo-bg-color-cornsilk {
+  background-color: #FFF8DC
+}
+
+.polo-bg-color-antiquewhite {
+  background-color: #FAEBD7
+}
+
+.polo-bg-color-blanchedalmond {
+  background-color: #FFEBCD
+}
+
+.polo-bg-color-bisque {
+  background-color: #FFE4C4
+}
+
+.polo-bg-color-lightyellow {
+  background-color: #FFFFE0
+}
+
+.polo-bg-color-lemonchiffon {
+  background-color: #FFFACD
+}
+
+.polo-bg-color-lightsoldenrodyellow {
+  background-color: #FAFAD2
+}
+
+.polo-bg-color-papayawhip {
+  background-color: #FFEFD5
+}
+
+.polo-bg-color-peachpuff {
+  background-color: #FFDAB8
+}
+
+.polo-bg-color-moccasin {
+  background-color: #FFE4B5
+}
+
+.polo-bg-color-palegoldenrod {
+  background-color: #EEE8AA
+}
+
+.polo-bg-color-mistyrose {
+  background-color: #FFE4E1
+}
+
+.polo-bg-color-lavenderblush {
+  background-color: #FFF0F5
+}
+
+.polo-bg-color-lavender {
+  background-color: #E6E6FA
+}
+
+.polo-bg-color-thistle {
+  background-color: #D8BFD8
+}
+
+.polo-bg-color-azure {
+  background-color: #F0FFFF
+}
+
+.polo-bg-color-lightcyan {
+  background-color: #E0FFFF
+}
+
+.polo-bg-color-powderblue {
+  background-color: #B0E0E6
+}
+
+.polo-bg-color-paleturquoise {
+  background-color: #E0FFFF
+}
+
+.polo-bg-color-honewdew {
+  background-color: #F0FFF0
+}
+
+.polo-bg-color-mintcream {
+  background-color: #F5FFFA
+}
